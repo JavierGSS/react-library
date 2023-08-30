@@ -27,12 +27,22 @@ function App() {
       <br />
       <div className="container">
         {!load && (
-          <button onClick={loadList} style={{ marginLeft: "30px" }}>
+          <button
+            type="button"
+            class="btn btn-primary"
+            onClick={loadList}
+            style={{ marginLeft: "50%" }}
+          >
             List
           </button>
         )}
         {load && (
-          <button onClick={loadList} style={{ marginLeft: "30px" }}>
+          <button
+            type="button"
+            class="btn btn-primary"
+            onClick={loadList}
+            style={{ marginLeft: "50%" }}
+          >
             Cards
           </button>
         )}
@@ -51,16 +61,20 @@ function App() {
       <div className="container">
         {!load && (
           <button
+            type="button"
+            class="btn btn-primary"
             onClick={loadList}
-            style={{ marginLeft: "30px", marginBottom: "10px" }}
+            style={{ marginLeft: "50%", marginBottom: "10px" }}
           >
             List
           </button>
         )}
         {load && (
           <button
+            type="button"
+            class="btn btn-primary"
             onClick={loadList}
-            style={{ marginLeft: "30px", marginBottom: "10px" }}
+            style={{ marginLeft: "50%", marginBottom: "10px" }}
           >
             Cards
           </button>

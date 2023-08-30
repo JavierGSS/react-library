@@ -31,7 +31,7 @@ function App() {
             type="button"
             class="btn btn-primary"
             onClick={loadList}
-            style={{ marginLeft: "50%" }}
+            style={{ marginLeft: "45%" }}
           >
             List
           </button>
@@ -41,7 +41,7 @@ function App() {
             type="button"
             class="btn btn-primary"
             onClick={loadList}
-            style={{ marginLeft: "50%" }}
+            style={{ marginLeft: "45%" }}
           >
             Cards
           </button>
@@ -64,7 +64,7 @@ function App() {
             type="button"
             class="btn btn-primary"
             onClick={loadList}
-            style={{ marginLeft: "50%", marginBottom: "10px" }}
+            style={{ marginLeft: "45%", marginBottom: "10px" }}
           >
             List
           </button>
@@ -74,7 +74,7 @@ function App() {
             type="button"
             class="btn btn-primary"
             onClick={loadList}
-            style={{ marginLeft: "50%", marginBottom: "10px" }}
+            style={{ marginLeft: "45%", marginBottom: "10px" }}
           >
             Cards
           </button>

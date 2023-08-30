@@ -46,7 +46,7 @@
 
 ## :dart: About ##
 
-React app uses Bootstrap to dynamically & conditionally display publishing data originally given in a json file in two different formats: as a list and as a set of cards.
+React app that uses Bootstrap to dynamically & conditionally display publishing data originally given in a json file in two different formats: as a list and as a set of cards.
 
 ## :alien: Road to Future Improvements ##
 
